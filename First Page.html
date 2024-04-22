@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: vgaf874, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        h1 {
+            color: #ff5733;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+        }
+        .balloons {
+            width: 100px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .balloon {
+            width: 50px;
+            height: 80px;
+            background-color: Magenta;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: relative;
+            display: inline-block;
+            margin: 0 5px;
+            transform: translateY(0);
+            animation: float 2s infinite alternate ease-in-out;
+        }
+        .balloon:before, .balloon:after {
+            content: "";
+            position: absolute;
+            background-color: #ff5733;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .balloon:before {
+            top: -20px;
+            left: 10px;
+        }
+        .balloon:after {
+            bottom: -20px;
+            left: 10px;
+        }
+        @keyframes float {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body background ="toa-adhesive-latex-no.-la-35a.jpg">
+    <h1>Happy Birthday!</h1>
+    <div class="balloons">
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+    <p><b><font size ="15"><font color ="Green">Happy Birdday หัวหน้าแก๊งดมกาว!</font></b></p>
+    <p><b><font size ="5"><font color ="Red">Rew Piyachon : ขอให้พี่เอสปวดฉี่ก็ได้ฉี่ ขอให้ในทุกวันเกิดมีคนส่งจ๋องกระปิ๋ม <br>
+               ขอให้เมื่อมีลูกขอตั้งชื่อลูกว่า ต้อม นามสกุล ขนาดแยด</font></b></p>
+    <p><b><font size ="5"><font color ="#FF6EC7">P_P : ขอให้พี่เอสได้กินของที่อยากกิน อร่อยๆ อร่อยแบบเอาไปเลย 10คะแนนเต็ม!!! <br>ได้ในสิ่งที่อยากทำสมความปรารถนา สาธุ 99</font></b></p>
+    <p><b><font size ="5"><font color ="#9b111e">Mod : มีชีวิตที่ดี ให้มีต่อไป ต่อให้ลำบากยากเย็นแค่ไหน ขอให้ผ่านไปได้ด้วยความพยาม <br>และขอให้จำไว้ว่าชาตินี้หรือชาติหน้า น้องก็จะขอเรียกพี่ว่า พี่หม้อออ!!!!!</font></b></p>
+<p><b><font size ="5"><font color ="Blue">M : Happy (Bird)day </font></b></p>
+</body>
+</html>
